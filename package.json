@@ -8,7 +8,7 @@
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d public -t -x -r https://$GH_TOKEN@github.com/adriancarriger/adriancarriger.github.io.git",
     "semantic-release": "semantic-release",
     "semantic-commitlint": "semantic-commitlint"
   },
