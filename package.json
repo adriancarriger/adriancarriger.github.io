@@ -8,7 +8,7 @@
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gh-pages -d public -t -x -r https://$GH_TOKEN@github.com/adriancarriger/adriancarriger.github.io.git",
+    "deploy": "gh-pages -d public -t -r https://$GH_TOKEN@github.com/adriancarriger/adriancarriger.github.io.git -b master",
     "semantic-release": "semantic-release",
     "semantic-commitlint": "semantic-commitlint"
   },
@@ -31,7 +31,7 @@
     "url": "git+https://github.com/adriancarriger/adriancarriger.github.io.git"
   },
   "release": {
-    "branch": "master",
+    "branch": "develop",
     "verifyConditions": [
       "@semantic-release/git",
       "@semantic-release/github",
