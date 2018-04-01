@@ -1,3 +1,0 @@
-# Adrian Carriger
-
-Personal website
