@@ -19,8 +19,8 @@ export default class extends React.Component<IndexPageProps, {}> {
   public render() {
     return(
       <div>
-        <h1>Hello Typescript world!</h1>
-        <p>This site is named <strong>{this.props.data.site.siteMetadata.siteName}</strong></p>
+        <h1>Adrian Carriger</h1>
+        <p>This is my personal website.</p>
       </div>
     );
   }
