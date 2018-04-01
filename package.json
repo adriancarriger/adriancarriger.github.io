@@ -8,7 +8,7 @@
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gh-pages -d public -t -r https://$GH_TOKEN@github.com/adriancarriger/adriancarriger.github.io.git -b master",
+    "deploy": "gh-pages -m 'auto commit [ci skip]' -d public -t -r https://$GH_TOKEN@github.com/adriancarriger/adriancarriger.github.io.git -b master",
     "semantic-release": "semantic-release",
     "semantic-commitlint": "semantic-commitlint"
   },
