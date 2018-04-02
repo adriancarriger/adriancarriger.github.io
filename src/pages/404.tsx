@@ -1,7 +1,10 @@
-import * as React from "react";
+import * as React from 'react';
 
-export default () =>
+const NotFoundPage = () => (
   <div>
     <h1>You are here!</h1>
     <h2>But nothing found for you #404</h2>
-  </div>;
+  </div>
+);
+
+export default NotFoundPage;
