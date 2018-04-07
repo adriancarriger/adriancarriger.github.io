@@ -17,7 +17,15 @@
     "gatsby": "latest",
     "gatsby-link": "latest",
     "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-plugin-sharp": "^1.6.41",
     "gatsby-plugin-typescript": "latest",
+    "gatsby-remark-autolink-headers": "^1.4.16",
+    "gatsby-remark-copy-linked-files": "^1.5.31",
+    "gatsby-remark-images": "^1.5.60",
+    "gatsby-remark-prismjs": "^1.2.23",
+    "gatsby-source-filesystem": "^1.5.28",
+    "gatsby-transformer-remark": "^1.7.39",
+    "gatsby-transformer-sharp": "^1.6.22",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
