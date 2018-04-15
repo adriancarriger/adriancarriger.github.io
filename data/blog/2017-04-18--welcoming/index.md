@@ -22,8 +22,8 @@ Donec pretium facilisis orci, vitae blandit ex gravida a. Etiam a augue urna. Or
 Morbi libero sem, molestie nec volutpat ac, volutpat eget dui. Phasellus ante turpis, blandit accumsan facilisis volutpat, bibendum vehicula metus. Fusce pellentesque orci ac imperdiet vestibulum. Aenean aliquam et elit sit amet eleifend. Vivamus libero lacus, porta quis neque a, tincidunt cursus lorem. Nulla placerat gravida nulla, in vestibulum risus lobortis ut. Proin sit amet varius arcu. Sed tincidunt vitae lectus vitae pretium. Fusce malesuada nec diam blandit pharetra. Vivamus fringilla elit ut odio sollicitudin, a convallis nulla dictum. Proin porta nisi eu cursus hendrerit. Donec vel tortor at magna maximus placerat gravida nec ligula.
 
 ```javascript
-const plop = "coucou";
-const toto = "tata";
+const plop = 'coucou';
+const toto = 'tata';
 ```
 
 coucou `plop` comment tu vas ?

@@ -6,16 +6,13 @@ module.exports = {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-typescript',
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/data`,
-        name: 'markdown-pages'
+        name: `data`,
+        path: `${__dirname}/data`
       }
     },
-    'gatsby-transformer-remark',
 
     // Parse all markdown files (each plugin add/parse some data into graphQL layer)
     {
@@ -39,5 +36,11 @@ module.exports = {
     // Parse all images files
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+
+    // Parse JSON files
+    `gatsby-transformer-json`,
+
+    // Add typescript stack into webpack
+    `gatsby-plugin-typescript`,
   ]
 };
