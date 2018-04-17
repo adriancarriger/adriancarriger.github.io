@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{325:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Gatsby Typescript Starter"}},posts:{totalCount:2,edges:[{node:{fields:{slug:"/blog/2017-04-18--welcoming/"},frontmatter:{author:{bio:"Software Developer"}}}},{node:{fields:{slug:"/blog/2018-04-17--testing/"},frontmatter:{author:{bio:"Software Developer"}}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-d7a782abaa27aae83468.js.map
