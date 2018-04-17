@@ -5,6 +5,9 @@ import * as React from 'react';
 // to generate all types from graphQL schema
 interface IndexPageProps {
   data: {
+    posts: {
+      edges: any[];
+    }
     site: {
       siteMetadata: {
         title: string
@@ -22,7 +25,13 @@ export default class extends React.Component<IndexPageProps, {}> {
       <div>
         <h1>Adrian Carriger</h1>
         <p>This is my personal website.</p>
-        <Link to='/page-2/'>Go to page 2</Link>
+        {this.props.data.posts.edges.map((edge, index) => {
+          return (
+            <li key={index}>
+              <Link to={edge.node.fields.slug}>{edge.node.fields.slug}</Link>
+            </li>
+          );
+        })}
       </div>
     );
   }
@@ -33,6 +42,23 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    posts: allMarkdownRemark(
+      limit: 10
+    ) {
+      totalCount
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            author {
+              bio
+            }
+          }
+        }
       }
     }
   }
