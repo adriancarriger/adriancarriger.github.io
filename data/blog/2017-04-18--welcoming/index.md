@@ -11,6 +11,20 @@ draft: false
 
 Welcome to gatsby-starter!
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique lacus vitae diam posuere faucibus. In hac habitasse platea dictumst.
+
+```javascript
+const plop = 'coucou';
+const toto = 'tata';
+
+function foo(bar) {
+  const a = 42;
+  const b = 'Prism';
+
+  return a + bar(b)
+}
+```
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique lacus vitae diam posuere faucibus. In hac habitasse platea dictumst. Ut id arcu non risus tincidunt commodo. Sed felis leo, pharetra non porttitor sodales, sodales dictum tortor. Vivamus vel neque interdum, egestas urna ac, finibus tellus. Morbi et rhoncus ligula, nec volutpat dolor. Cras efficitur ipsum a facilisis laoreet. Duis ut libero eget mi convallis maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque blandit sit amet erat vel semper.
 
 Ut egestas nisl in nunc accumsan, et interdum erat finibus. Fusce commodo ex nec imperdiet fermentum. Suspendisse non nulla eu eros rutrum vestibulum. Curabitur sit amet tortor venenatis, efficitur felis non, commodo urna. Aliquam ut auctor risus. Nullam nec felis pellentesque, tincidunt erat ut, aliquam neque. Ut elementum aliquam leo.
@@ -20,10 +34,5 @@ Pellentesque sit amet purus a erat tincidunt elementum. Mauris lobortis egestas 
 Donec pretium facilisis orci, vitae blandit ex gravida a. Etiam a augue urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce finibus urna lectus, eu iaculis massa tempus non. Maecenas in lectus massa. In ut ipsum eleifend, condimentum libero ut, ultricies massa. Integer viverra fringilla sem. Mauris nulla mi, accumsan sed hendrerit ut, tincidunt quis neque. Nullam egestas sem neque, id porta nunc sagittis quis.
 
 Morbi libero sem, molestie nec volutpat ac, volutpat eget dui. Phasellus ante turpis, blandit accumsan facilisis volutpat, bibendum vehicula metus. Fusce pellentesque orci ac imperdiet vestibulum. Aenean aliquam et elit sit amet eleifend. Vivamus libero lacus, porta quis neque a, tincidunt cursus lorem. Nulla placerat gravida nulla, in vestibulum risus lobortis ut. Proin sit amet varius arcu. Sed tincidunt vitae lectus vitae pretium. Fusce malesuada nec diam blandit pharetra. Vivamus fringilla elit ut odio sollicitudin, a convallis nulla dictum. Proin porta nisi eu cursus hendrerit. Donec vel tortor at magna maximus placerat gravida nec ligula.
-
-```javascript
-const plop = 'coucou';
-const toto = 'tata';
-```
 
 coucou `plop` comment tu vas ?

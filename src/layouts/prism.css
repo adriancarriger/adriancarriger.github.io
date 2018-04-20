@@ -1,0 +1,31 @@
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: #292d3e;
+}
+
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+  color: #bfe48a;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  color: #9ea4c4;
+}
+
+.token.atrule, .token.attr-value, .token.function {
+  color: #7da2f3
+}
+
+.token.boolean, .token.number {
+  color: #f28a6b;
+}
+
+.token.keyword {
+  color: #bb89dd;
+}
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string, .token.variable {
+  color: #bb89dd;
+}
+
+.token.punctuation {
+  color: #89dcfe
+}
