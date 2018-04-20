@@ -1,8 +1,10 @@
 import Link from 'gatsby-link';
+import 'prismjs/themes/prism-okaidia.css';
 import * as React from 'react';
 import * as ReactHelmet from 'react-helmet';
 
 import './index.css';
+import './prism.css';
 
 const { Helmet } = ReactHelmet as any;
 
