@@ -39,3 +39,4 @@ jobs:
       - run: git config --global user.email "$GIT_AUTHOR_EMAIL"
       - run: git config --global user.name "$GIT_AUTHOR_NAME"
       - run: yarn run semantic-release
+      - run: yarn run psi
