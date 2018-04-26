@@ -3,8 +3,8 @@ import 'prismjs/themes/prism-okaidia.css';
 import * as React from 'react';
 import * as ReactHelmet from 'react-helmet';
 
-import './index.css';
-import './prism.css';
+import './index.scss';
+import './prism.scss';
 
 const { Helmet } = ReactHelmet as any;
 
