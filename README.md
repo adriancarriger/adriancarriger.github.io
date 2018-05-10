@@ -17,3 +17,8 @@ yarn start
 ## Tech
 
 ⚛️📄🚀 Built using [Gatsby](https://www.gatsbyjs.org/)!
+
+## License
+
+This repo is licensed under the MIT Open Source license.
+For more information, see the [LICENSE](LICENSE) file in this repository.
